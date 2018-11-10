@@ -1,0 +1,5 @@
+include project.json
+include extractors.json
+include items.json
+recursive-include spiders **.json
+recursive-include spiders **.html

@@ -1,0 +1,33 @@
+{
+    "a801-4118-bd70": {
+        "fields": {
+            "6160-4bc5-b585": {
+                "id": "6160-4bc5-b585", 
+                "name": "Title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "23f0-4d36-9ceb": {
+                "id": "23f0-4d36-9ceb", 
+                "name": "Price", 
+                "required": false, 
+                "type": "price", 
+                "vary": false
+            }, 
+            "805d-420f-b47a": {
+                "id": "805d-420f-b47a", 
+                "name": "Stock", 
+                "required": false, 
+                "type": "number", 
+                "vary": false
+            }
+        }, 
+        "name": "Tipping the Velvet Books to Scrape - Sandbox"
+    }, 
+    "e1ca-4c88-8684": {
+        "auto_created": true, 
+        "fields": {}, 
+        "name": "All products Books to Scrape - Sandbox"
+    }
+}

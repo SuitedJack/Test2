@@ -1,0 +1,12 @@
+# Automatically created by: portia
+
+slybot==0.13.2
+dateparser==0.7.0
+loginform>=1.2.0
+page_finder
+scrapylib
+scrapy-splash
+scrapy-crawlera
+scrapy-deltafetch
+scrapy-dotpersistence
+scrapy-pagestorage

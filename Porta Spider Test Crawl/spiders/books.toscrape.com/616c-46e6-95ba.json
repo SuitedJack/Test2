@@ -1,0 +1,107 @@
+{
+    "extractors": {},
+    "id": "616c-46e6-95ba",
+    "name": "Tipping the Velvet Books to Scrape - Sandbox",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "e0ba-42b1-8ae0",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "a801-4118-bd70",
+                    "selector": ".product_main",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ],
+                    "container_id": "e0ba-42b1-8ae0",
+                    "data": {
+                        "25c5-4e1c-82f1": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "6160-4bc5-b585",
+                            "required": false
+                        }
+                    },
+                    "id": "ccfb-4412-8dc5",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".product_main > h1",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" product_main \")]/h1"
+                },
+                {
+                    "accept_selectors": [
+                        ".price_color:nth-child(2)"
+                    ],
+                    "container_id": "e0ba-42b1-8ae0",
+                    "data": {
+                        "9806-4f83-b29b": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "23f0-4d36-9ceb",
+                            "required": false
+                        }
+                    },
+                    "id": "d611-4c57-90b1",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".product_main > .price_color",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" product_main \")]/*[contains(concat(\" \", @class, \" \"), \" price_color \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".instock:nth-child(3)"
+                    ],
+                    "container_id": "e0ba-42b1-8ae0",
+                    "data": {
+                        "7134-4633-9058": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "805d-420f-b47a",
+                            "required": false
+                        }
+                    },
+                    "id": "b245-45b6-ae16",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".product_main > .instock",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" product_main \")]/*[contains(concat(\" \", @class, \" \"), \" instock \")]"
+                }
+            ]
+        }
+    },
+    "scrapes": "a801-4118-bd70",
+    "spider": "books.toscrape.com",
+    "url": "http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "version": "0.13.2"
+}

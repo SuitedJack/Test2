@@ -1,0 +1,32 @@
+{
+    "extractors": {},
+    "id": "1615-4559-9d7d",
+    "name": "All products Books to Scrape - Sandbox",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "d679-4d45-a55d",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "e1ca-4c88-8684",
+                    "selector": null,
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                }
+            ]
+        }
+    },
+    "scrapes": "e1ca-4c88-8684",
+    "spider": "books.toscrape.com",
+    "url": "http://books.toscrape.com/",
+    "version": "0.13.2"
+}
